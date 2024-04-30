@@ -6,8 +6,6 @@ Given the scarcity of publicly available VSR data for non-English languages, we 
 
 
 Comparison of VSR datasets. Our proposed ViSpeR dataset is larger in size compared to other datasets that cover non-English languages for the VSR task. For our dataset, the numbers in parenthesis denote the number of clips. We also give the clip coverage under TedX and Wild subsets of our ViSpeR dataset.
-![Lip2Vec Illustration](visper_stats.png)
-
 
 | Dataset         | French (fr)     | Spanish (es)    | Arabic (ar)     | Chinese (zh)    |
 |-----------------|-----------------|-----------------|-----------------|-----------------|
