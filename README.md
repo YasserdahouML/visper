@@ -87,6 +87,15 @@ The processed multilingual VSR video-text pairs are utilized to train a multilin
 | WER      | 23.4 | -       | 62.2 | 55.8    | 45.3 | 45.9    | 49.3 | 33.9    | 60.9 | 50.1    |
 
 
+
+|          | English          | Arabic          | French           | Spanish          | Chinese          |
+|----------|------------------|-----------------|------------------|------------------|------------------|
+|          | Tedx      | Wild | Tedx      | Wild | Tedx       | Wild | Tedx       | Wild | Tedx       | Wild |
+|----------|-----------|------|-----------|------|------------|------|------------|------|------------|------|
+| Clips    | 1320       | -    | -         | -    | 297        | 1855 | 563        | 1389 | 322        | 1986 |
+| WER      | 23.4       | -    | -         | -    | 62.2       | 55.8 | 45.3       | 45.9 | 49.3       | 33.9 |
+
+
 ## Intended Use
 
 This dataset can be used to train models for visual speech recognition. It's particularly useful for research and development purposes in the field of audio-visual content processing. The data can be used to assess the performance of current and future models.
