@@ -87,6 +87,11 @@ The processed multilingual VSR video-text pairs are utilized to train a multilin
 | WER      | 23.4 | -       | 62.2 | 55.8    | 45.3 | 45.9    | 49.3 | 33.9    | 60.9 | 50.1    |
 
 
+|          | English             | Arabic             | French              | Spanish             | Chinese             |
+|----------|---------------------|--------------------|---------------------|---------------------|---------------------|
+|          | Tedx        | Wild  | Tedx       | Wild  | Tedx         | Wild  | Tedx         | Wild  | Tedx         | Wild  |
+| WER      | 23.4        | -     | 62.2       | 55.8  | 45.3         | 45.9  | 49.3         | 33.9  | 60.9         | 50.1  |
+
 
 ## Intended Use
 
