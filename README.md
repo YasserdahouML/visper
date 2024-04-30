@@ -9,6 +9,16 @@ Comparison of VSR datasets. Our proposed ViSpeR dataset is larger in size compar
 ![Lip2Vec Illustration](visper_stats.png)
 
 
+| Dataset         | French (fr)     | Spanish (es)    | Arabic (ar)     | Chinese (zh)    |
+|-----------------|-----------------|-----------------|-----------------|-----------------|
+| **MuAVIC**      | 176             | 178             | 16              | --              |
+| **VoxCeleb2**   | 124             | 42              | --              | --              |
+| **AVSpeech**    | 122             | 270             | --              | --              |
+| **ViSpeR (TedX)** | 192 (160k)    | 207 (151k)      | 49 (48k)        | 129 (143k)      |
+| **ViSpeR (Wild)** | 799 (548k)    | 851 (531k)      | 1152 (1.01M)    | 658 (593k)      |
+| **ViSpeR (full)** | 991 (709k)    | 1058 (683k)     | 1200 (1.06M)    | 787 (736k)      |
+
+
 ## Downloading the data:
 
 First, use the langauge.json to download the videos and put them in seperate folders. The raw data should be structured as follows:
