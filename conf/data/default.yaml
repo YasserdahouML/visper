@@ -1,0 +1,10 @@
+defaults:
+  - _self_
+  - dataset: lrs3
+modality: video
+use_audio_normalise: False
+max_frames: 1800
+max_frames_val: 1200
+multi_lang: True
+max_language_token: 6
+lang: 

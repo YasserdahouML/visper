@@ -1,0 +1,8 @@
+defaults:
+  - _self_
+  - visual_backbone: resnet_conformer
+  - audio_backbone: resnet_conformer
+  - language_model: default
+  - audiovisual_backbone: resnet_conformer
+spm_model: spm/unigram/unigram.model
+spm_dict: spm/unigram/unigram_units.txt

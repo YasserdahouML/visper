@@ -1,0 +1,25 @@
+defaults:
+  - _self_
+  - checkpoint: last_k
+  - data: default
+  - logger: cassini
+  - model: default
+  - optimizer: adamw
+  - trainer: train
+  - decode: default
+exp_name: "trial"
+exp_dir: "trial"
+num_workers: 12
+gpus: 
+slurm_job_id:
+train: True
+log_wandb: True
+infer_lang: 
+infer_path: 
+file_path:
+ckpt_path: 
+resume_from_checkpoint: 
+transfer_encoder:
+transfer_frontend:
+
+
