@@ -101,20 +101,10 @@ The processed multilingual VSR video-text pairs are utilized to train a multilin
 
 Model weights to be found at [HF](https://huggingface.co/tiiuae/visper)
 
-<table align="center">
-    <tr>
-        <th>Task</th>
-        <th>Languages</th>
-        <th>Checkpoint</th>
-    </tr>
-    <tr>
-        <td rowspan="10">AVSR</td>
-        <th>en,fr, es, ar, cz</th>
-        <th><a href="https://huggingface.co/tiiuae/visper/blob/main/visper_avsr_base.pth">visper_avsr_base.pth</a></th>
+| Languages | Task | Checkpoint |
+|----------|---------------|----------------|
+| en,fr, es, ar, cz   | AVSR          | [visper_avsr_base.pth](https://huggingface.co/tiiuae/visper/blob/main/visper_avsr_base.pth)          |
 
-    </tr>
-
-</table>
 
 ## Intended Use
 
