@@ -99,7 +99,7 @@ The processed multilingual VSR video-text pairs are utilized to train a multilin
 | Chinese  | 51.3 (CER)    | 15.4 (CER)     |
 | English  | 49.1          | 8.1            |
 
-
+Model weights to be found at [HF](https://huggingface.co/models/tiiuae/visper)
 ## Intended Use
 
 This dataset can be used to train models for visual speech recognition. It's particularly useful for research and development purposes in the field of audio-visual content processing. The data can be used to assess the performance of current and future models.
