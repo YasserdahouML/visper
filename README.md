@@ -110,10 +110,20 @@ Due to the data collection process focusing on YouTube, biases inherent to the p
 
 ## Citation
 ```bash
-@article{djilali2023vsr,
-  title={Do VSR Models Generalize Beyond LRS3?},
-  author={Djilali, Yasser Abdelaziz Dahou and Narayan, Sanath and Bihan, Eustache Le and Boussaid, Haithem and Almazrouei, Ebtessam and Debbah, Merouane},
-  journal={arXiv preprint arXiv:2311.14063},
+
+@inproceedings{djilali2023lip2vec,
+  title={Lip2Vec: Efficient and Robust Visual Speech Recognition via Latent-to-Latent Visual to Audio Representation Mapping},
+  author={Djilali, Yasser Abdelaziz Dahou and Narayan, Sanath and Boussaid, Haithem and Almazrouei, Ebtessam and Debbah, Merouane},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={13790--13801},
   year={2023}
+}
+
+@inproceedings{djilali2024vsr,
+  title={Do VSR Models Generalize Beyond LRS3?},
+  author={Djilali, Yasser Abdelaziz Dahou and Narayan, Sanath and LeBihan, Eustache and Boussaid, Haithem and Almazrouei, Ebtesam and Debbah, Merouane},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={6635--6644},
+  year={2024}
 }
 ```
