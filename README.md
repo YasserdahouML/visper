@@ -114,13 +114,6 @@ Model weights to be found at [HF](https://huggingface.co/tiiuae/visper)
 
     </tr>
 
-    <tr>
-        <td rowspan="10">VSR</td>
-        <th>en,fr, es, ar, cz</th>
-        <th><a href="https://huggingface.co/tiiuae/visper/blob/main/visper_vsr_base.pth">visper_vsr_base.pth</a></th>
-
-    </tr>
-
 </table>
 
 ## Intended Use
