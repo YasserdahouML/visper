@@ -55,6 +55,12 @@ conda install "ffmpeg<5" -c conda-forge
 
 You need the download the meta data from [HF](https://huggingface.co/datasets/tiiuae/visper), this includes ```train.tar.gz``` and ```test.tar,gz```. Then, use the provided metadata to process the raw data for creating the ViSpeR dataset. You can use the ```crop_videos.py``` to process the data, note that all clips are cropped and transformed
 
+| Languages | Split | Link |
+|----------|---------------|----------------|
+| en,fr, es, ar, cz   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/train.tar.gz)          |
+| en,fr, es, ar, cz   | test          | [test](https://huggingface.co/tiiuae/visper/test.tar.gz)          |
+
+
 
 ```bash
 python crop_videos.py --video_dir [path_to_data_language] --save_path [save_path_language] --json [language_metadata.json] --use_ffmpeg True
