@@ -91,10 +91,9 @@ The ```video_id/xxxx.json``` has the 'label' of the corresponding video ```video
 The processed multilingual VSR video-text pairs are utilized to train a multilingual encoder-decoder model in a fully-supervised manner. The supported languages are: English, Arabic, French, Spanish and Chinese. For English, we leverage the combined 1759H from LRS3 and VoxCeleb-en. While the encoder size is 12 layers, the decoder size is 6 layers. The hidden size, MLP and number of heads are set to 768, 3072 and 12, respectively. The unigram tokenizers are learned on all languages and have a vocabulary size of 21k. Results are presented here:
 
 
-|          | English        |        | Arabic |      | French         |        | Spanish        |        | Chinese        |        |
-|----------|----------------|--------|--------|------|----------------|--------|----------------|--------|----------------|--------|
-|          | Tedx           | Wild   | Tedx   | Wild | Tedx           | Wild   | Tedx           | Wild   | Tedx           | Wild   |
-| WER      | 23.4 | -       | 62.2 | 55.8    | 45.3 | 45.9    | 49.3 | 33.9    | 60.9 | 50.1    |
+|          | English        |         Arabic |      | French                | Spanish                | Chinese              |
+|----------|----------------|----------------|------|------------------------|------------------------|------------------------|
+| WER      |       |   |    |     |    |
 
 
 ## Intended Use
