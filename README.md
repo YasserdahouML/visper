@@ -110,7 +110,8 @@ Model weights to be found at [HF](https://huggingface.co/tiiuae/visper)
     <tr>
         <td rowspan="10">AVSR</td>
         <th>en,fr, es, ar, cz</th>
-        <th><a href="[https://dl.fbaipublicfiles.com/muavic/models/ar_avsr/checkpoint_best.pt](https://huggingface.co/tiiuae/visper/blob/main/visper_avsr_base.pth)">visper_avsr_base.pth</a></th>
+        <th><a href="https://huggingface.co/tiiuae/visper/blob/main/visper_avsr_base.pth">visper_avsr_base.pth</a></th>
+
     </tr>
 
 </table>
