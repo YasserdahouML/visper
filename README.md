@@ -100,6 +100,21 @@ The processed multilingual VSR video-text pairs are utilized to train a multilin
 | English  | 49.1          | 8.1            |
 
 Model weights to be found at [HF](https://huggingface.co/tiiuae/visper)
+
+<table align="center">
+    <tr>
+        <th>Task</th>
+        <th>Languages</th>
+        <th>Checkpoint</th>
+    </tr>
+    <tr>
+        <td rowspan="10">AVSR</td>
+        <th>en,fr, es, ar, cz</th>
+        <th><a href="[https://dl.fbaipublicfiles.com/muavic/models/ar_avsr/checkpoint_best.pt](https://huggingface.co/tiiuae/visper/blob/main/visper_avsr_base.pth)">visper_avsr_base.pth</a></th>
+    </tr>
+
+</table>
+
 ## Intended Use
 
 This dataset can be used to train models for visual speech recognition. It's particularly useful for research and development purposes in the field of audio-visual content processing. The data can be used to assess the performance of current and future models.
