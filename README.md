@@ -53,7 +53,7 @@ conda install "ffmpeg<5" -c conda-forge
 
 ## Processing the data:
 
-You need the download the meta data from [HF](https://huggingface.co/datasets/tiiuae/visper), this includes ```train.tar.gz``` and ```test.tar,gz```. Then, use the provided metadata to process the raw data for creating the ViSpeR dataset. You can use the ```crop_videos.py``` to process the data, note that all clips are cropped and transformed
+You need the download the meta data from [Huggingface](https://huggingface.co/datasets/tiiuae/visper), this includes ```train.tar.gz``` and ```test.tar,gz```. Then, use the provided metadata to process the raw data for creating the ViSpeR dataset. You can use the ```crop_videos.py``` to process the data, note that all clips are cropped and transformed
 
 | Languages | Split | Link |
 |----------|---------------|----------------|
@@ -105,7 +105,7 @@ The processed multilingual VSR video-text pairs are utilized to train a multilin
 | Chinese  | 51.3 (CER)    | 15.4 (CER)     |
 | English  | 49.1          | 8.1            |
 
-Model weights to be found at [HF](https://huggingface.co/tiiuae/visper)
+Model weights to be found at [Huggingface](https://huggingface.co/tiiuae/visper)
 
 | Languages | Task | Size |Checkpoint |
 |----------|---------------|----------------|----------------|
