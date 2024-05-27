@@ -15,8 +15,8 @@ Comparison of VSR datasets. Our proposed ViSpeR dataset is larger in size compar
 | **VoxCeleb2**   | 124             | 42              | --              | --              |
 | **AVSpeech**    | 122             | 270             | --              | --              |
 | **ViSpeR (TedX)** | 192 (160k)    | 207 (151k)      | 49 (48k)        | 129 (143k)      |
-| **ViSpeR (Wild)** | 799 (548k)    | 851 (531k)      | 1152 (1.01M)    | 658 (593k)      |
-| **ViSpeR (full)** | 991 (709k)    | 1058 (683k)     | 1200 (1.06M)    | 787 (736k)      |
+| **ViSpeR (Wild)** | 680 (481k)    | 587 (383k)      | 1152 (1.01M)    | 658 (593k)      |
+| **ViSpeR (full)** | 872 (641k)    | 794 (534k)     | 1200 (1.06M)    | 787 (736k)      |
 
 
 ## Downloading the data:
@@ -55,7 +55,7 @@ conda install "ffmpeg<5" -c conda-forge
 
 ## Processing the data:
 
-You need the download the meta data from [Huggingface🤗](https://huggingface.co/datasets/tiiuae/visper), this includes ```train.tar.gz``` and ```test.tar,gz```. Then, use the provided metadata to process the raw data for creating the ViSpeR dataset. You can use the ```crop_videos.py``` to process the data, note that all clips are cropped and transformed
+You need the download the meta data from [Huggingface🤗](https://huggingface.co/datasets/tiiuae/visper), this includes ```train.tar.gz``` and ```test.tar.gz```. Then, use the provided metadata to process the raw data for creating the ViSpeR dataset. You can use the ```crop_videos.py``` to process the data, note that all clips are cropped and transformed
 
 | Languages | Split | Link |
 |----------|---------------|----------------|
@@ -71,7 +71,7 @@ You need the download the meta data from [Huggingface🤗](https://huggingface.c
 
 
 ```bash
-python crop_videos.py --video_dir [path_to_data_language] --save_path [save_path_language] --json [language_metadata.json] --use_ffmpeg True
+python crop_videos.py --video_dir [path_to_data_language] --save_path [save_path_language] --json_path [language_metadata.json] --use_ffmpeg True
 ```
 
 ```bash
@@ -101,7 +101,7 @@ ViSpeR/
 
 The ```video_id/xxxx.json``` has the 'label' of the corresponding video ```video_id/xxxx.mp4```.
 
-## Multilingual ViSPer
+## Multilingual ViSpeR
 The processed multilingual VSR video-text pairs are utilized to train a multilingual encoder-decoder model in a fully-supervised manner. The supported languages are: English, Arabic, French, Spanish and Chinese. For English, we leverage the combined 1759H from LRS3 and VoxCeleb-en. While the encoder size is 12 layers, the decoder size is 6 layers. The hidden size, MLP and number of heads are set to 768, 3072 and 12, respectively. The unigram tokenizers are learned on all languages and have a vocabulary size of 21k. Results are presented here:
 
 
@@ -117,8 +117,8 @@ Model weights to be found at [Huggingface🤗](https://huggingface.co/tiiuae/vis
 
 | Languages | Task | Size |Checkpoint |
 |----------|---------------|----------------|----------------|
-| en,fr, es, ar, cz   | AVSR          | Base |[visper_avsr_base.pth](https://huggingface.co/tiiuae/visper/blob/main/visper_avsr_base.pth)          |
-| en,fr, es, ar, cz   | VSR          |  Base |[visper_vsr_base.pth](https://huggingface.co/tiiuae/visper/blob/main/visper_vsr_base.pth)          |
+| en, fr, es, ar, cz   | AVSR          | Base |[visper_avsr_base.pth](https://huggingface.co/tiiuae/visper/blob/main/visper_avsr_base.pth)          |
+| en, fr, es, ar, cz   | VSR          |  Base |[visper_vsr_base.pth](https://huggingface.co/tiiuae/visper/blob/main/visper_vsr_base.pth)          |
 
 ## Intended Use
 
