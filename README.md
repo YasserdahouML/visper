@@ -76,7 +76,6 @@ You need the download the meta data from [Huggingface🤗](https://huggingface.c
 
 | Languages | Split | Link |
 |----------|---------------|----------------|
-
 | French   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_train.tar.gz)          |
 |    | test          | [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_test.tar.gz)          |
 | Spanish   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_train.tar.gz)          |
