@@ -144,7 +144,7 @@ class ModelModule(LightningModule):
         self.total_length = 0
         self.total_edit_distance = 0
         self.text_transform = TextTransform()
-        self.beam_search = get_beam_search_decoder(self.model, self.token_list, lang='')
+        self.beam_search = get_beam_search_decoder(self.model, self.token_list)
 
     def on_test_epoch_end(self):
         self.log("wer", self.total_edit_distance / self.total_length)
