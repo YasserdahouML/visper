@@ -83,8 +83,6 @@ You need the download the meta data from [Huggingface🤗](https://huggingface.c
 |    | test          | [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_test.tar.gz)          |
 | Chinese   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_train.tar.gz)          |
 |    | test          | [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_test.tar.gz)          |
-| Arabic   | train          | coming soon        |
-|    | test          | coming soon          |
 
 
 ```bash
