@@ -22,7 +22,7 @@ Comparison of VSR datasets. Our proposed ViSpeR dataset is larger in size compar
 ## Downloading the data:
 First, use the provided video lists to download the videos and put them in seperate folders. The raw data should be structured as follows:
 
-| Languages | plit |
+| Languages | Split |
 |----------|----------------|
 | French   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_train.txt)          |
 |    |  [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_test.txt)          |
@@ -86,16 +86,16 @@ conda install "ffmpeg<5" -c conda-forge
 
 You need the download the meta data from [Huggingface🤗](https://huggingface.co/datasets/tiiuae/visper), this includes ```train.tar.gz``` and ```test.tar.gz```. Then, use the provided metadata to process the raw data for creating the ViSpeR dataset. You can use the ```crop_videos.py``` to process the data, note that all clips are cropped and transformed
 
-| Languages | Split | Link |
-|----------|---------------|----------------|
-| French   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_train.tar.gz)          |
-|    | test          | [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_test.tar.gz)          |
-| Spanish   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_train.tar.gz)          |
-|    | test          | [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_test.tar.gz)          |
-| Chinese   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_train.tar.gz)          |
-|    | test          | [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_test.tar.gz)          |
-| Arabic   | train          | coming soon          |
-|    | test          | coming soon        |
+| Languages | Split |
+|----------|----------------|
+| French   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_train.tar.gz)          |
+|    |  [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_test.tar.gz)          |
+| Spanish   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_train.tar.gz)          |
+|    |  [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_test.tar.gz)          |
+| Chinese   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_train.tar.gz)          |
+|    |  [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_test.tar.gz)          |
+| Arabic   |  coming soon          |
+|    |  coming soon        |
 
 
 ```bash
