@@ -88,7 +88,7 @@ You need the download the meta data from [Huggingface🤗](https://huggingface.c
 
 
 ```bash
-python crop_videos.py --video_dir [path_to_data_language] --save_path [save_path_language] --json_path [language_metadata.json] --use_ffmpeg True
+python crop_videos.py --video_dir [path_to_data_language] --save_path [save_path_language] --json_path [language_metadata_path] --use_ffmpeg True
 ```
 
 ```bash
