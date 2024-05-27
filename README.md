@@ -76,14 +76,14 @@ You need the download the meta data from [Huggingface🤗](https://huggingface.c
 
 | Languages | Split | Link |
 |----------|---------------|----------------|
-| Arabic   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/train_ar.tar.gz)          |
-|    | test          | [test](https://huggingface.co/tiiuae/visper/test_ar.tar.gz)          |
-| French   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/train_fr.tar.gz)          |
-|    | test          | [test](https://huggingface.co/tiiuae/visper/test_fr.tar.gz)          |
-| Spanish   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/train_es.tar.gz)          |
-|    | test          | [test](https://huggingface.co/tiiuae/visper/test_es.tar.gz)          |
-| Chinese   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/train_cz.tar.gz)          |
-|    | test          | [test](https://huggingface.co/tiiuae/visper/test_cz.tar.gz)          |
+| Arabic   | train          | coming soon        |
+|    | test          | coming soon          |
+| French   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/french_train.tar.gz)          |
+|    | test          | [test](https://huggingface.co/tiiuae/visper/french_test.tar.gz)          |
+| Spanish   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/spanish_train.tar.gz)          |
+|    | test          | [test](https://huggingface.co/tiiuae/visper/spanish_test.tar.gz)          |
+| Chinese   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/chinese_train.tar.gz)          |
+|    | test          | [test](https://huggingface.co/tiiuae/visper/chinese_test.tar.gz)          |
 
 
 
