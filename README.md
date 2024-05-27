@@ -41,14 +41,32 @@ Data/
 
 ## Setup:
 
-1- Setup the environement:
+1. Setup the environement and repo:
  ```bash
 conda create --name visper python=3.10
 conda activate visper
-pip install -r requirements.txt
+git clone https://github.com/YasserdahouML/visper
+cd visper
 ```
 
-2- Install ffmpeg:
+2. Install fairseq within the repository:
+```
+git clone https://github.com/pytorch/fairseq
+cd fairseq
+pip install --editable ./
+cd ..
+```
+
+3. Install PyTorch (tested pytorch version: v2.2.2) and other packages:
+```Shell
+pip install torch torchvision torchaudio
+pip install pytorch-lightning
+pip install sentencepiece
+pip install av
+pip install hydra-core --upgrade
+```
+
+4. Install ffmpeg:
  ```bash
 conda install "ffmpeg<5" -c conda-forge
 ```
