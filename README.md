@@ -20,7 +20,19 @@ Comparison of VSR datasets. Our proposed ViSpeR dataset is larger in size compar
 
 
 ## Downloading the data:
-First, use the langauge.json to download the videos and put them in seperate folders. The raw data should be structured as follows:
+First, use the provided video lists to download the videos and put them in seperate folders. The raw data should be structured as follows:
+
+| Languages | Split | Link |
+|----------|---------------|----------------|
+| French   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_train.txt)          |
+|    | test          | [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_test.txt)          |
+| Spanish   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_train.txt)          |
+|    | test          | [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_test.txt)          |
+| Chinese   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_train.txt)          |
+|    | test          | [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_test.txt)          |
+| Arabic   | train          | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/arabic_train.txt)               |
+|    | test          | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/arabic_test.txt)        |
+
 ```bash
 Data/
 ├── Chinese/
