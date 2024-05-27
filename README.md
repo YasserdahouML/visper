@@ -20,7 +20,6 @@ Comparison of VSR datasets. Our proposed ViSpeR dataset is larger in size compar
 
 
 ## Downloading the data:
-
 First, use the langauge.json to download the videos and put them in seperate folders. The raw data should be structured as follows:
 ```bash
 Data/
@@ -139,11 +138,13 @@ Model weights to be found at [Huggingface🤗](https://huggingface.co/tiiuae/vis
 | en, fr, es, ar, cz   | VSR          |  Base |[visper_vsr_base.pth](https://huggingface.co/tiiuae/visper/blob/main/visper_vsr_base.pth)          |
 
 ## Intended Use
-
 This dataset can be used to train models for visual speech recognition. It's particularly useful for research and development purposes in the field of audio-visual content processing. The data can be used to assess the performance of current and future models.
 
 ## Limitations and Biases
 Due to the data collection process focusing on YouTube, biases inherent to the platform may be present in the dataset. Also, while measures are taken to ensure diversity in content, the dataset might still be skewed towards certain types of content due to the filtering process.
+
+## Acknowledgement
+This repository is built using the [espnet](https://github.com/espnet/espnet), [fairseq](https://github.com/facebookresearch/fairseq), [auto_avsr](https://github.com/mpc001/auto_avsr) and [avhubert](https://github.com/facebookresearch/av_hubert) repositories.
 
 
 ## Citation
