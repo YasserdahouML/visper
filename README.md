@@ -144,6 +144,16 @@ Model weights to be found at [Huggingface🤗](https://huggingface.co/tiiuae/vis
 | en, fr, es, ar, cz   | AVSR          | Base |[visper_avsr_base.pth](https://huggingface.co/tiiuae/visper/blob/main/visper_avsr_base.pth)          |
 | en, fr, es, ar, cz   | VSR          |  Base |[visper_vsr_base.pth](https://huggingface.co/tiiuae/visper/blob/main/visper_vsr_base.pth)          |
 
+## Evaluation
+Run evaluation on the videos using 
+```bash
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python infer.py \
+ckpt_path=visper_vsr_base.pth \
+data.modality=video infer_path=/path/to/files.npy \
+infer_lang=[LANG]
+```
+For evaluating using the AVSR model, modify ```data.modality=audiovisual``` and ```ckpt_path=visper_avsr_base.pth``` above. ```[LANG]``` should be set to one of the five languages (arabic, chinese, french, spanish or english).
+
 ## Intended Use
 This dataset can be used to train models for visual speech recognition. It's particularly useful for research and development purposes in the field of audio-visual content processing. The data can be used to assess the performance of current and future models.
 
