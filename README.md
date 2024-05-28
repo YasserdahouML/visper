@@ -29,7 +29,6 @@ First, use the provided video lists to download the videos and put them in seper
 | Chinese   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_train_cz.txt),   [test_tedx](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_cz.txt), [test_wild](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_wild_test_cz.txt)          |
 | Arabic   | training coming soon,     [test_tedx](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_ar.txt), [test_wild](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_wild_test_ar.txt)             |
 
-https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_ar.txt
 
 ```bash
 Data/
