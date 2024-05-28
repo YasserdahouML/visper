@@ -124,7 +124,6 @@ ViSpeR/
 ```
 
 The ```video_id/xxxx.json``` has the 'label' of the corresponding video ```video_id/xxxx.mp4```.
-https://mmai.io/datasets/lip_reading/
 
 For english, you can refer to [LRS3](https://mmai.io/datasets/lip_reading/), and [VoxCeleb-en](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
 ## Multilingual ViSpeR
