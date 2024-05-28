@@ -91,8 +91,7 @@ You need the download the meta data from [Huggingface🤗](https://huggingface.c
 | Chinese   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_train.tar.gz)          |
 |    |  [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_test.tar.gz)          |
 | Arabic   |  coming soon          |
-|    |  coming soon        |
-
+|    |  [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/arabic_test.tar.gz)       |
 
 ```bash
 python data_prepare/crop_videos.py --video_dir [path_to_data_language] --save_path [save_path_language] --json_path [language_metadata_path] --use_ffmpeg True
