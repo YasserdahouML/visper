@@ -154,8 +154,9 @@ Due to the data collection process focusing on YouTube, biases inherent to the p
 ## Acknowledgement
 This repository is built using the [espnet](https://github.com/espnet/espnet), [fairseq](https://github.com/facebookresearch/fairseq), [auto_avsr](https://github.com/mpc001/auto_avsr) and [avhubert](https://github.com/facebookresearch/av_hubert) repositories.
 
+## ViSpeR paper coming soon
 
-## Citation
+## Check our VSR related works 
 ```bash
 
 @inproceedings{djilali2023lip2vec,
