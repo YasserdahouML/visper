@@ -24,10 +24,12 @@ First, use the provided video lists to download the videos and put them in seper
 
 | Languages | Split |
 |----------|----------------|
-| French   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_train.txt),     [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_test.txt)          |
-| Spanish   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_train.txt),   [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_test.txt)           |
-| Chinese   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_train.txt),   [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_test.txt)          |
-| Arabic   | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/arabic_train.txt),     [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/arabic_test.txt)            |
+| French   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_train.txt),     [test_tedx](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_fr.txt), [test_wild](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_wild_test_fr.txt)         |
+| Spanish   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_train.txt),   [test_tedx](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_es.txt), [test_wild](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_wild_test_es.txt)        |
+| Chinese   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_train.txt),   [test_tedx](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_cz.txt), [test_wild](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_wild_test_cz.txt)          |
+| Arabic   | training coming soon,     [test_tedx](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_ar.txt), [test_wild](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_wild_test_ar.txt)             |
+
+https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_ar.txt
 
 ```bash
 Data/
