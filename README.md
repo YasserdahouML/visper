@@ -141,8 +141,8 @@ Model weights to be found at [Huggingface🤗](https://huggingface.co/tiiuae/vis
 
 | Languages | Task | Size |Checkpoint |
 |----------|---------------|----------------|----------------|
-| en, fr, es, ar, cz   | AVSR          | Base |[visper_avsr_base.pth](https://huggingface.co/tiiuae/visper/blob/main/visper_avsr_base.pth)          |
-| en, fr, es, ar, cz   | VSR          |  Base |[visper_vsr_base.pth](https://huggingface.co/tiiuae/visper/blob/main/visper_vsr_base.pth)          |
+| en, fr, es, ar, zh   | AVSR          | Base |[visper_avsr_base.pth](https://huggingface.co/tiiuae/visper/blob/main/visper_avsr_base.pth)          |
+| en, fr, es, ar, zh   | VSR          |  Base |[visper_vsr_base.pth](https://huggingface.co/tiiuae/visper/blob/main/visper_vsr_base.pth)          |
 
 ## Evaluation
 Run evaluation on the videos using 
