@@ -124,7 +124,9 @@ ViSpeR/
 ```
 
 The ```video_id/xxxx.json``` has the 'label' of the corresponding video ```video_id/xxxx.mp4```.
+https://mmai.io/datasets/lip_reading/
 
+For english, you can refer to [LRS3](https://mmai.io/datasets/lip_reading/), and [VoxCeleb-en](https://www.robots.ox.ac.uk/~vgg/data/voxceleb/)
 ## Multilingual ViSpeR
 The processed multilingual VSR video-text pairs are utilized to train a multilingual encoder-decoder model in a fully-supervised manner. The supported languages are: English, Arabic, French, Spanish and Chinese. For English, we leverage the combined 1759H from LRS3 and VoxCeleb-en. While the encoder size is 12 layers, the decoder size is 6 layers. The hidden size, MLP and number of heads are set to 768, 3072 and 12, respectively. The unigram tokenizers are learned on all languages and have a vocabulary size of 21k. Results are presented here:
 
@@ -154,6 +156,7 @@ infer_lang=[LANG]
 ```
 For evaluating using the AVSR model, modify ```data.modality=audiovisual``` and ```ckpt_path=visper_avsr_base.pth``` above. ```[LANG]``` should be set to one of the five languages (arabic, chinese, french, spanish or english).
 
+To test on English, please get the data from here [WildVSR-en](https://github.com/YasserdahouML/VSR_test_set) 
 ## Intended Use
 This dataset can be used to train models for visual speech recognition. It's particularly useful for research and development purposes in the field of audio-visual content processing. The data can be used to assess the performance of current and future models.
 
