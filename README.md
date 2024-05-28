@@ -24,14 +24,10 @@ First, use the provided video lists to download the videos and put them in seper
 
 | Languages | Split |
 |----------|----------------|
-| French   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_train.txt)          |
-|    |  [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_test.txt)          |
-| Spanish   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_train.txt)          |
-|    |  [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_test.txt)          |
-| Chinese   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_train.txt)          |
-|    |  [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_test.txt)          |
-| Arabic   | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/arabic_train.txt)               |
-|    |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/arabic_test.txt)        |
+| French   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_train.txt),     [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_test.txt)          |
+| Spanish   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_train.txt),   [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_test.txt)           |
+| Chinese   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_train.txt),   [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_test.txt)          |
+| Arabic   | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/arabic_train.txt),     [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/arabic_test.txt)            |
 
 ```bash
 Data/
