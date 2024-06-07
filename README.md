@@ -162,7 +162,15 @@ Due to the data collection process focusing on YouTube, biases inherent to the p
 ## Acknowledgement
 This repository is built using the [espnet](https://github.com/espnet/espnet), [fairseq](https://github.com/facebookresearch/fairseq), [auto_avsr](https://github.com/mpc001/auto_avsr) and [avhubert](https://github.com/facebookresearch/av_hubert) repositories.
 
-## ViSpeR paper coming soon
+## Citation
+```bash
+@article{narayan2024visper,
+  title={ViSpeR: Multilingual Audio-Visual Speech Recognition},
+  author={Narayan, Sanath and Djilali, Yasser Abdelaziz Dahou and Singh, Ankit and Bihan, Eustache Le and Hacid, Hakim},
+  journal={arXiv preprint arXiv:2406.00038},
+  year={2024}
+}
+```
 
 ## Check our VSR related works 
 ```bash
