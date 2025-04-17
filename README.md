@@ -27,7 +27,7 @@ First, use the provided video lists to download the videos and put them in seper
 | French   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_train_fr.txt),     [test_tedx](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_fr.txt), [test_wild](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_wild_test_fr.txt)         |
 | Spanish   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_train_es.txt),   [test_tedx](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_es.txt), [test_wild](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_wild_test_es.txt)        |
 | Chinese   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_train_cz.txt),   [test_tedx](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_cz.txt), [test_wild](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_wild_test_cz.txt)          |
-| Arabic   | training coming soon,     [test_tedx](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_ar.txt), [test_wild](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_wild_test_ar.txt)             |
+| Arabic   | [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_train_ar.txt),     [test_tedx](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_tedx_test_ar.txt), [test_wild](https://huggingface.co/datasets/tiiuae/visper/blob/main/videos_ids_wild_test_ar.txt)             |
 
 
 ```bash
@@ -88,7 +88,7 @@ You need the download the meta data from [Huggingface🤗](https://huggingface.c
 | French   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_train.tar.gz),    [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/french_test.tar.gz)           |
 | Spanish   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_train.tar.gz),   [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/spanish_test.tar.gz)           |
 | Chinese   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_train.tar.gz),   [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/chinese_test.tar.gz)          |
-| Arabic   |  Training coming soon,   [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/arabic_test.tar.gz)          |
+| Arabic   |  [train](https://huggingface.co/datasets/tiiuae/visper/blob/main/arabic_train.tar.gz),   [test](https://huggingface.co/datasets/tiiuae/visper/blob/main/arabic_test.tar.gz)          |
 |    |         |
 
 ```bash
